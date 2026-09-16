@@ -1,6 +1,23 @@
-name = input("Please input name:", "/n""First name:", "/n", "Last name:"
-job = input("Please input job description:")
+import gatepass 
 
+name = input("Input USERNAME ---> ")
+password1 = getpass.getpass("Input PASSWORD ---> ")
+
+username = name
+password = password1
+
+
+
+if name == username and password == password:
+	print("Hello",name,"!")
+else: 
+	print("access denied")
+	print("incorrect username or password") 
+    
+job = input("Please input job description:")
+collateral = input("Please input name/description of collateral e.g motorcycle, land, house, etc. )
+
+.
 
 age = int(input("How old are you?---->   "))
 is_employed = bool(input("Are you currently employed? (True/False)---->   "))
