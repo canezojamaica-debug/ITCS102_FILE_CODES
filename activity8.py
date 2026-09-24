@@ -13,6 +13,6 @@ hb = input("What else? --->")
 hobbies += hb + ","
 
 hb = input("What else? --->")
-hobbies += hb + ","
+hobbies += hb + "."
 
 print("My hobbies are", hobbies)
