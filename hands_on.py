@@ -6,10 +6,12 @@ credit_score = int(input("Input credit score --> "))
 yrs_business = float(input("Input Years in Business -->"))
 has_defaults = input("Default History --> ")
 
-if has_defaults.lower == "yes" or "true":
-    print("Default history --> rejected")
-elif has_defaults.lower == "no" or "false":
+if has_defaults.lower == "no" or "false":
     print("Default history --> accepted")
+else:
+    has_defaults.lower == "yes" or "true"
+    print("Default history --> rejected")
+  
 
 
 
