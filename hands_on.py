@@ -1,4 +1,4 @@
-import sys
+
 
 age = int(input("Input age -->"))
 monthly_rev = float(input("Input monthly revenue --> "))
@@ -10,7 +10,7 @@ if has_defaults.lower == "yes" or "true":
     print("Default history --> rejected")
 elif has_defaults.lower == "no" or "false":
     print("Default history --> accepted")
-sys.exit()
+
 
 
 collateral = input("Input Collateral Name --> ")
