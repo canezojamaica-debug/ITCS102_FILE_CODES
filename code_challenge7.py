@@ -1,3 +1,5 @@
+#triangle
+
 rows = int(input("Input the number of rows: "))
 counter = 1
 
